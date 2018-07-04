@@ -4,8 +4,10 @@
   "description": "webpack,basic bundling",
   "main": "dist/index.js",
   "scripts": {
-    "develop": "webpack --mode development",
-    "build": "webpack --mode production"
+    "develop": "webpack --mode development --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
+    "develop-fix": "webpack --mode development --config webpack.split.config.js",
+    "build-fix": "webpack --mode production --config webpack.split.config.js"
   },
   "author": "Sunil Hari",
   "license": "MIT",
