@@ -10,15 +10,15 @@ Demo would show how the modules are bundled and how would there size would vary 
 <pre>
 npm run develop
 </pre>
-![develop output](https://github.com/sunilhari/webpack-learnings/blob/master/01modules/support/develop.PNG)
+![develop output](https://github.com/sunilhari/webpack-learnings/blob/master/02modules/support/develop.PNG)
 Here the differnece is worth noticing .if you check the bundle analyzer output below,eventhough we are only using group by from `lodash` it had included all the available `lodash` modules
-![develop output](https://github.com/sunilhari/webpack-learnings/blob/master/01modules/support/develop_bundle.PNG)
+![develop output](https://github.com/sunilhari/webpack-learnings/blob/master/02modules/support/develop_bundle.PNG)
 <pre>
 npm run build
 </pre>
-![production output](https://github.com/sunilhari/webpack-learnings/blob/master/01modules/support/production.PNG)
+![production output](https://github.com/sunilhari/webpack-learnings/blob/master/02modules/support/production.PNG)
 The bundle size had reduced from 1.41Mb to 17.2Kb.its not just result of minification.The modules that are not used from lodash had been removed or not part of the bundle.Lets confirm it with the bundle analyzer output.
-![production output](https://github.com/sunilhari/webpack-learnings/blob/master/01modules/support/production-bundle.PNG)
+![production output](https://github.com/sunilhari/webpack-learnings/blob/master/02modules/support/production-bundle.PNG)
 
 
 
