@@ -10,12 +10,12 @@ Demo would simply run a simple module in development and production mode.
 <pre>
 npm run develop
 </pre>
-![develop output](./support/develop.png)
+![develop output](https://github.com/sunilhari/webpack-learnings/blob/master/01basic/support/develop.PNG)
 
 <pre>
 npm run build
 </pre>
-![production output](./support/production.png)
+![production output](https://github.com/sunilhari/webpack-learnings/blob/master/01basic/support/production.PNG)
 
 
 Bundle analyzer plugin is attached to webpack here to understand what the bundle size is constituted off.
