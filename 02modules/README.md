@@ -18,7 +18,7 @@ npm run build
 </pre>
 ![production output](https://github.com/sunilhari/webpack-learnings/blob/master/02modules/support/production.PNG)
 The bundle size had reduced from 1.41Mb to 17.2Kb.its not just result of minification.The modules that are not used from lodash had been removed or not part of the bundle.Lets confirm it with the bundle analyzer output.
-![production output](https://github.com/sunilhari/webpack-learnings/blob/master/02modules/support/production-bundle.PNG)
+![production output](https://github.com/sunilhari/webpack-learnings/blob/master/02modules/support/production_bundle.PNG)
 
 
 
