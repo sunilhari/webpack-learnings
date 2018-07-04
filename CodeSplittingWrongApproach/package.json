@@ -1,0 +1,23 @@
+{
+  "name": "01-basic",
+  "version": "1.0.0",
+  "description": "webpack,basic bundling",
+  "main": "dist/index.js",
+  "scripts": {
+    "develop": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Sunil Hari",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.14.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
